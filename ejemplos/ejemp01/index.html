@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Los Simsons</title>
+  <link rel="shortcut icon" href="./img/18-simpson-01-32.png">
+  <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+  <script defer type="text/javascript" src="./js/automata.js"></script>
+  <script defer type="text/javascript" src="./js/aleatorio.js"></script>
+  <script defer type="text/javascript" src="./js/mayusculas.js"></script>
+  <script defer type="text/javascript" src="./js/resolver.js"></script>
+  <script defer type="text/javascript" src="./js/minusculas.js"></script>
+  <script defer type="text/javascript" src="./js/primay.js"></script>
+  <script defer type="text/javascript" src="./js/priminu.js"></script>
+  <script defer type="text/javascript" src="./js/ultimay.js"></script>
+  <script defer type="text/javascript" src="./js/ultiminu.js"></script>
+  <script defer type="text/javascript" src="./js/vocalesmay.js"></script>
+  <script defer type="text/javascript" src="./js/vocalminu.js"></script>
+  <script defer type="text/javascript" src="./js/consmay.js"></script>
+  <script defer type="text/javascript" src="./js/consminu.js"></script>
+  <script defer type="text/javascript" src="./js/carga.js"></script>
+  <script defer type="text/javascript" src="./js/script.js"></script>
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>
+        Ejemplos – FUNDAMENTOS DE JS (ES6)
+      </h1>
+      <h2>Desarrollo WEB en entorno cliente</h2>
+    </div>
+    <div id="content">
+      <h2>https://thesimpsonsquoteapi.glitch.me/</h2>
+      <form action="">
+        <fieldset>
+          <legend>Transformar cita de los Simsons:</legend>
+          <textarea id="texto" rows="6" cols="110">
+        </textarea>
+          <br>
+          <input id="cargar" type="button" name="Cargar" value="Cargar">&nbsp;&nbsp;
+
+          <br>
+          <input class="botones" id="mayusculas" type="button" name="A-Z" value="A-Z">&nbsp;&nbsp;
+          <input class="botones" id="minusculas" type="button" name="a-z" value="a-z">&nbsp;&nbsp;
+          <input class="botones" id="primay" type="button" name="A_" value="A_">&nbsp;&nbsp;
+          <input class="botones" id="ultimay" type="button" name="_Z" value="_Z">&nbsp;&nbsp;
+          <input class="botones" id="priminu" type="button" name="a_" value="a_">&nbsp;&nbsp;
+          <input class="botones" id="ultiminus" type="button" name="_z" value="_z">&nbsp;&nbsp;
+          <input class="botones" id="vocalmay" type="button" name="AEIOU" value="AEIOU">&nbsp;&nbsp;
+          <input class="botones" id="vocalmin" type="button" name="aeiou" value="aeiou">&nbsp;&nbsp;
+          <input class="botones" id="consmay" type="button" name="ABC" value="ABC">&nbsp;&nbsp;
+          <input class="botones" id="consminu" type="button" name="abc" value="abc">&nbsp;&nbsp;
+          <br>
+          <input id="azar" type="button" value="Azar">&nbsp;&nbsp;
+          <input id="empezar" type="button" name="Empezar" value="Automatico">&nbsp;&nbsp;
+          <input id="parar" type="button" name="Parar" value="Parar">&nbsp;&nbsp;
+          <input id="rapido" type="button" name="Rápido" value="Rápido">&nbsp;&nbsp;
+          <input id="lento" type="button" name="Lento" value="Lento">&nbsp;&nbsp;
+          <br>
+          <h1>Personaje de Los Simpson</h1>
+          <p>Character: <span id="character"></span></p>
+          <img id="imagen" src="" alt="Imagen del personaje">
+
+      </form>
+      <p id="salida"></p>
+
+      </br></br>
+      <a href="../../index.html">Página principal</a>
+    </div>
+    <div id="footer">
+      © Cristina Fernández ☺
+    </div>
+  </div>
+</body>
+
+</html>

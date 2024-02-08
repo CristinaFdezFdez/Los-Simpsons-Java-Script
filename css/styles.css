@@ -1,0 +1,78 @@
+body {
+  background: #ffec40; /* Amarillo característico de Los Simpsons */
+  text-align: justify;
+  font-family: "Bangers", sans-serif; /* Fuente similar a la usada en Los Simpsons */
+  font-size: 16px;
+  color: #333;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 1000px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#header {
+  background: #ffcc66; /* Fondo en tono amarillo claro para el encabezado */
+  text-align: center;
+  padding: 20px;
+  color: #ff4d4d; /* Rojo característico de Los Simpsons */
+}
+
+#header h1 {
+  font-size: 28px;
+  margin: 0.6em;
+}
+
+#header h2 {
+  font-size: 24px;
+  margin: 0.2em;
+}
+
+#content {
+  background: #fff; /* Fondo blanco para el contenido */
+  clear: both;
+  padding: 20px;
+}
+
+#content h2 {
+  color: #ff4d4d; /* Rojo característico de Los Simpsons */
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+li {
+  padding: 12px;
+}
+
+a {
+  color: #00bfff; /* Azul claro para los enlaces */
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+#footer {
+  color: #ffec40; /* Amarillo característico de Los Simpsons */
+  background: #ff4d4d; /* Fondo en tono rojo para el pie de página */
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+input {
+  margin: 6px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
